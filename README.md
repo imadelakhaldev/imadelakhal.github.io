@@ -1,2 +1,2 @@
-# imadelakhal.github.io
-Making websites, mobile apps and games, spacecrafts and shit for FUN!
+# ARE YOU READING THIS FOR REAL?!
+There's nothing special in here. Just making websites, mobile apps, games, spacecrafts and shit for FUN!
