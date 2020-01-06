@@ -28,7 +28,7 @@
 		this.id    = null;
 	}
 
-	// create SVG plot
+	// create svg plot
 	Cell.prototype.createElement = function (i, j) {
 		var x = 2 * 34 + j * 34 + ((i % 2) ? 1 : -1) * 34 / 4;
 		var y = 2 * 26 + i * 26;
@@ -147,7 +147,7 @@
 		}
 	}
 
-	// the Cat
+	// the cat
 	var cat = {
 		shape: document.getElementById("cat"),
 		x: 0,
