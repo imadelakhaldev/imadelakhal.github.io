@@ -1,2 +1,2 @@
 # Hello Friend.
-There's nothing special in here. Just making websites, mobile apps, games, spacecrafts and shit for fun.
+There's nothing special in here, just making spacecrafts for fun.
