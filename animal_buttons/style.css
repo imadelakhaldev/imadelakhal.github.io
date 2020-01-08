@@ -1,0 +1,44 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background: #172933;
+  background-size: cover;
+  background-position: center;
+  font-family: "helvetica", sans-serif;
+}
+
+.multi-button {
+  width: 50px;
+  overflow: hidden;
+}
+
+button {
+  display: block;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  border: 1px solid white;
+  width: 100%;
+  padding: 0.5em 0;
+  font-size: 1.5rem;
+}
+button:first-child {
+  border-radius: 6px 6px 0 0;
+}
+button:last-child {
+  border-radius: 0 0 6px 6px;
+}
+button:hover {
+  background: teal;
+  color: white;
+}
+button:hover#spider {
+  background: darkred;
+  cursor: not-allowed;
+}
+button:active, button:focus {
+  background: white;
+  color: black;
+}
