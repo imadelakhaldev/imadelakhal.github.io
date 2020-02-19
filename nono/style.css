@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right top, #f76e6e, #f87e7e, #f98e8d, #f99d9d, #f8acac);
+    overflow: hidden;
+}
+p{
+    font-size: 13px;
+    line-height: 10px;
+    background: url(https://www.graphiclibrary.com/wp-content/uploads/2019/03/anatomy-of-the-heart_2.png) no-repeat;
+    background-size: contain;
+    background-position: top center;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0) ;
+    color: transparent;
+    mix-blend-mode: difference;
+    transform: translateX(0);
+    animation: text-move 12s ease alternate infinite;
+    object-fit: cover;
+    margin: 0;
+    font-weight: 900;
+    mix-blend-mode: color;
+}
+
+@keyframes text-move {
+    0% {
+        display: none;
+        font-size: 1px;
+    }
+    
+    100% {
+        font-size: 13px;
+    }
+    
+
+}
+@keyframes pump {
+    0% {
+
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(.99);
+    }
+    100% {
+        transform: scale(1);
+    }
+
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    animation: pump 1s ease infinite;
+}
+h1 {
+    position: absolute;
+    color: white;
+    font-family: 'Montez', cursive;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
