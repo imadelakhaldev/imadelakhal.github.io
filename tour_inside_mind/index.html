@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>A Tour Inside My Mind</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Welcome -->
+  <div id="welcome" class="typing-slider">
+    <p>Hello... </p>
+    <p>Welcome to: </p>
+    <p>A Tour Inside My Mind! </p>
+    <p>You are entering a world </p>
+    <p>Full of my dreams... </p>
+    <p>Everytime you refresh </p>
+    <p>You'll find something </p>
+    <p>New, and infinite </p>
+    <p>... </p>
+  </div>
+
+  <!-- Zoom -->
+  <iframe id="zoom" src="zoom.html" frameborder="0"></iframe>
+
+  <!-- Music -->
+  <audio autoplay loop style="display: none;">
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+    setTimeout(function(){
+      document.getElementById("welcome").style.display = "none";
+      document.getElementById('zoom').src += '';
+      document.getElementById("zoom").style.display = "block";
+    }, 45000);
+  </script>
+</body>
+</html>
