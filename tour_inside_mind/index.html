@@ -25,9 +25,12 @@
   <iframe id="zoom" src="https://imadelakhaldev.github.io/tour_inside_mind/zoom.html" frameborder="0"></iframe>
 
   <!-- Music -->
-  <audio autoplay loop style="display: none;">
+  <audio loop style="display: none;">
     <source src="https://imadelakhaldev.github.io/tour_inside_mind/music.mp3" type="audio/mpeg">
   </audio>
+  <script>
+    document.getElementsByTagName("audio")[0].play();
+  </script>
 
   <script>
     setTimeout(function(){
